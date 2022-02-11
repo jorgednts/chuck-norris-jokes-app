@@ -1,6 +1,5 @@
 import 'package:chuck_norris_app/common/errors.dart';
 import 'package:dio/dio.dart';
-import 'package:chuck_norris_app/common/errors.dart';
 import '../models/chuck_joke_model.dart';
 import '../../../common/consts/base_consts.dart' as consts;
 

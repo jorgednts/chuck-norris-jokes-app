@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'modules/chuck_norris/pages/categories/categories_page.dart';
-import 'modules/chuck_norris/pages/jokes/joke_page.dart';
 import 'modules/routes.dart';
-import 'modules/todo_page.dart';
 
 
 void main() {
@@ -14,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    RouteSettings settings = RouteSettings();
+    
     return MaterialApp(
       title: 'App Chuck Norris',
       debugShowCheckedModeBanner: false,
